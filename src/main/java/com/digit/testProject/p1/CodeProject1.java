@@ -5,6 +5,8 @@ public class CodeProject1 {
 		// TODO Auto-generated method stub
 		
 		System.out.println("My favorite player is ms dhoni");
+		System.out.println("My name is Suraj Singh");
+		System.out.println("My favorate player is Suraj Singh");
 
 	}
 }
