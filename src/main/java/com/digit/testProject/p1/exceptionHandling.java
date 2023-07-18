@@ -15,6 +15,7 @@ public class exceptionHandling {
 	  
 	  int res=a/b;
 	  
+	  System.out.println(res);
 	  
 	  
 	  System.out.println("Enter the size of array: ");
@@ -33,17 +34,14 @@ public class exceptionHandling {
 		  System.out.println("ArithmeticException");
 		  
 	  }
-	  catch(ArrayIndexOutOfBoundsException e2){
+	  catch(ArrayIndexOutOfBoundsException  | NullPointerException  |NegativeArraySizeException e2){
 		  System.out.println("ArrayIndexOutOfBoundsException");
 		  
 	  }
-	  catch(NullPointerException e3) {
-		  System.out.println("NullPointerException");
-	  }
-	  catch(NegativeArraySizeException e4) {
-		  System.out.println("NegativeArraySizeException");
-	  }
-	  catch(Exception e6) {
+	  
+	  
+	  
+	  catch(Exception e3) {
 		  System.out.println("Exception is handled by the generic block");
 	  }
 	  
